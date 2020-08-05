@@ -1,0 +1,11 @@
+#settings-container {
+  width:225px;
+  float: right;
+  padding-right: 5%;
+  //padding-bottom: 30%;
+
+}
+
+.settings-headline {
+  padding-right: 10%;
+}

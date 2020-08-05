@@ -5,7 +5,7 @@
   <link rel="stylesheet" type="text/css" href="style/style.css">
   <link rel="stylesheet" type="text/css" href="style/header.css">
   <link rel="stylesheet" type="text/css" href="style/footer.css">
-
+  <link rel="stylesheet" type="text/css" href="style/settings.css">
   <script src="scripts.js"></script>
 </head>
 <body onload="resizeMedium()">
@@ -24,16 +24,32 @@
     </div>
   </div>
 
-  <div id="canvas-container">
-    <canvas id="trainer" width="1" height="1"></canvas>
-  </div>
+  <div class="container">
+    <div class="col">
+      <div id="canvas-container">
+        <canvas id="playground" width="1" height="1"></canvas>
+      </div>
+    </div>
 
-
-  <div id="settings-container">
-    <div class="settings-headline">
-      <h2>Settings</h2>
+    <div class="col">
+      <div id="settings-container">
+        <div class="settings-headline">
+          <h2>Settings</h2>
+        </div>
+        <div class="settings-body">
+          <div class="settings-size">
+            <h3>Choose size</h3>
+          </div>
+          <div class="settings-gamemode">
+            <h3>Choose gamemode</h3>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
+
+
 
 
   <!---<h3>Choose size:</h3>
