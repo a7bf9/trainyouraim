@@ -1,3 +1,9 @@
+#headline-container {
+  width: 100%;
+  text-align: center;
+}
+
+
 #canvas-container {
   width: 100%;
   text-align: center;
@@ -7,4 +13,35 @@ canvas {
   display: inline;
   background-color: grey;
   border-radius: 15px;
+  bottom: auto;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: green;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+}
+
+.footer-about {
+
+  color: white;
+  text-align: center;
+  left: 10%;
+  white-space: nowrap;
+  display: inline-block;
+
+}
+
+.footer-contact {
+  color: white;
+  text-align: center;
+  right: 10%;
+  display: inline-block;
 }
