@@ -4,6 +4,22 @@
 }
 
 
+#score-container {
+  width: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+}
+
+.score {
+  display: inline-block;
+}
+
+.number {
+  display: inline-block;
+}
+
+
 #canvas-container {
   width: 100%;
   text-align: center;
@@ -35,13 +51,12 @@ canvas {
   left: 10%;
   white-space: nowrap;
   display: inline-block;
-  //float: left;
+  margin-right: 10;
 }
 
 .footer-contact {
   color: white;
   right: 10%;
   display: inline-block;
-  //float: right;
   margin-left: 10%;
 }
