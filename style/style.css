@@ -1,0 +1,30 @@
+
+
+
+#score-container {
+  width: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+}
+
+.score {
+  display: inline-block;
+}
+
+.number {
+  display: inline-block;
+}
+
+
+#canvas-container {
+  width: 100%;
+  text-align: center;
+}
+
+canvas {
+  display: inline;
+  background-color: grey;
+  border-radius: 15px;
+  bottom: auto;
+}
