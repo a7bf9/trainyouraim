@@ -32,16 +32,16 @@ canvas {
 .footer-about {
 
   color: white;
-  text-align: center;
   left: 10%;
   white-space: nowrap;
   display: inline-block;
-
+  //float: left;
 }
 
 .footer-contact {
   color: white;
-  text-align: center;
   right: 10%;
   display: inline-block;
+  //float: right;
+  margin-left: 10%;
 }
